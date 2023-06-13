@@ -12,6 +12,7 @@
 		40586BBE2A374F7000A63CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40586BBD2A374F7000A63CFC /* Assets.xcassets */; };
 		40586BC12A374F7000A63CFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40586BC02A374F7000A63CFC /* Preview Assets.xcassets */; };
 		40586BC82A3750E500A63CFC /* DoCatchTryThrowsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40586BC72A3750E500A63CFC /* DoCatchTryThrowsDemo.swift */; };
+		40586BCA2A380FEF00A63CFC /* DownloadImageAsyncDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40586BC92A380FEF00A63CFC /* DownloadImageAsyncDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		40586BBD2A374F7000A63CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40586BC02A374F7000A63CFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40586BC72A3750E500A63CFC /* DoCatchTryThrowsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsDemo.swift; sourceTree = "<group>"; };
+		40586BC92A380FEF00A63CFC /* DownloadImageAsyncDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				40586BBD2A374F7000A63CFC /* Assets.xcassets */,
 				40586BBF2A374F7000A63CFC /* Preview Content */,
 				40586BC72A3750E500A63CFC /* DoCatchTryThrowsDemo.swift */,
+				40586BC92A380FEF00A63CFC /* DownloadImageAsyncDemo.swift */,
 			);
 			path = SwiftConcurrencyDemos;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40586BBC2A374F6E00A63CFC /* ContentView.swift in Sources */,
+				40586BCA2A380FEF00A63CFC /* DownloadImageAsyncDemo.swift in Sources */,
 				40586BC82A3750E500A63CFC /* DoCatchTryThrowsDemo.swift in Sources */,
 				40586BBA2A374F6E00A63CFC /* SwiftConcurrencyDemosApp.swift in Sources */,
 			);
