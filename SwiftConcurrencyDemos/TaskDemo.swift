@@ -75,7 +75,7 @@ struct TaskDemo: View {
                     .frame(width: 200, height: 200)
             }
         }
-        .onDisappear{//cancel image when view gone
+        .onDisappear{//cancel image when view gone, but not immediately canceled -> Task.checkCancellation()
             fetchImageTask?.cancel()
         }
         .onAppear{//Task is block for writing concurrency code.
