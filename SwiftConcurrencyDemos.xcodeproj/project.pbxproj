@@ -15,6 +15,7 @@
 		40586BCA2A380FEF00A63CFC /* DownloadImageAsyncDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40586BC92A380FEF00A63CFC /* DownloadImageAsyncDemo.swift */; };
 		40F8C93B2A3846BD00DC63D1 /* AsyncAwaitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C93A2A3846BD00DC63D1 /* AsyncAwaitDemo.swift */; };
 		40F8C93D2A38944F00DC63D1 /* TaskDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C93C2A38944F00DC63D1 /* TaskDemo.swift */; };
+		40F8C93F2A38AD3900DC63D1 /* AsyncLetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C93E2A38AD3900DC63D1 /* AsyncLetDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		40586BC92A380FEF00A63CFC /* DownloadImageAsyncDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncDemo.swift; sourceTree = "<group>"; };
 		40F8C93A2A3846BD00DC63D1 /* AsyncAwaitDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitDemo.swift; sourceTree = "<group>"; };
 		40F8C93C2A38944F00DC63D1 /* TaskDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDemo.swift; sourceTree = "<group>"; };
+		40F8C93E2A38AD3900DC63D1 /* AsyncLetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		40586BAD2A374F6E00A63CFC = {
 			isa = PBXGroup;
 			children = (
+				40F8C93E2A38AD3900DC63D1 /* AsyncLetDemo.swift */,
 				40586BB82A374F6E00A63CFC /* SwiftConcurrencyDemos */,
 				40586BB72A374F6E00A63CFC /* Products */,
 			);
@@ -65,8 +68,8 @@
 				40586BBF2A374F7000A63CFC /* Preview Content */,
 				40586BC72A3750E500A63CFC /* DoCatchTryThrowsDemo.swift */,
 				40586BC92A380FEF00A63CFC /* DownloadImageAsyncDemo.swift */,
-				40F8C93A2A3846BD00DC63D1 /* AsyncAwaitDemo.swift */,
 				40F8C93C2A38944F00DC63D1 /* TaskDemo.swift */,
+				40F8C93A2A3846BD00DC63D1 /* AsyncAwaitDemo.swift */,
 			);
 			path = SwiftConcurrencyDemos;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				40F8C93D2A38944F00DC63D1 /* TaskDemo.swift in Sources */,
 				40586BCA2A380FEF00A63CFC /* DownloadImageAsyncDemo.swift in Sources */,
 				40586BC82A3750E500A63CFC /* DoCatchTryThrowsDemo.swift in Sources */,
+				40F8C93F2A38AD3900DC63D1 /* AsyncLetDemo.swift in Sources */,
 				40F8C93B2A3846BD00DC63D1 /* AsyncAwaitDemo.swift in Sources */,
 				40586BBA2A374F6E00A63CFC /* SwiftConcurrencyDemosApp.swift in Sources */,
 			);
