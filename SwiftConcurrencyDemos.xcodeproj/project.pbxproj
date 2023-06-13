@@ -14,6 +14,7 @@
 		40586BC82A3750E500A63CFC /* DoCatchTryThrowsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40586BC72A3750E500A63CFC /* DoCatchTryThrowsDemo.swift */; };
 		40586BCA2A380FEF00A63CFC /* DownloadImageAsyncDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40586BC92A380FEF00A63CFC /* DownloadImageAsyncDemo.swift */; };
 		40F8C93B2A3846BD00DC63D1 /* AsyncAwaitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C93A2A3846BD00DC63D1 /* AsyncAwaitDemo.swift */; };
+		40F8C93D2A38944F00DC63D1 /* TaskDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C93C2A38944F00DC63D1 /* TaskDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		40586BC72A3750E500A63CFC /* DoCatchTryThrowsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsDemo.swift; sourceTree = "<group>"; };
 		40586BC92A380FEF00A63CFC /* DownloadImageAsyncDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncDemo.swift; sourceTree = "<group>"; };
 		40F8C93A2A3846BD00DC63D1 /* AsyncAwaitDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitDemo.swift; sourceTree = "<group>"; };
+		40F8C93C2A38944F00DC63D1 /* TaskDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				40586BC72A3750E500A63CFC /* DoCatchTryThrowsDemo.swift */,
 				40586BC92A380FEF00A63CFC /* DownloadImageAsyncDemo.swift */,
 				40F8C93A2A3846BD00DC63D1 /* AsyncAwaitDemo.swift */,
+				40F8C93C2A38944F00DC63D1 /* TaskDemo.swift */,
 			);
 			path = SwiftConcurrencyDemos;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40586BBC2A374F6E00A63CFC /* ContentView.swift in Sources */,
+				40F8C93D2A38944F00DC63D1 /* TaskDemo.swift in Sources */,
 				40586BCA2A380FEF00A63CFC /* DownloadImageAsyncDemo.swift in Sources */,
 				40586BC82A3750E500A63CFC /* DoCatchTryThrowsDemo.swift in Sources */,
 				40F8C93B2A3846BD00DC63D1 /* AsyncAwaitDemo.swift in Sources */,

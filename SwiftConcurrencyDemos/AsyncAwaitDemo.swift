@@ -36,24 +36,24 @@ class AsyncAwaitDemoViewModel: ObservableObject{
         try? await Task.sleep(nanoseconds: 2_000_000_000)
         
         let author2 = "Author2: \(Thread.current)"
-        await MainActor.run {//if not sure which thread it is, jump to main thread before update Ui
+        await MainActor.run(body:{//if not sure which thread it is, jump to main thread before update Ui
             self.dataArray.append(author2)
             
             let author3 = "Author3: \(Thread.current)"
             self.dataArray.append(author3)
-        }
+        })
     }
     
     func addSomething() async{
         try? await Task.sleep(nanoseconds: 2_000_000_000)
         
         let something1 = "Something1: \(Thread.current)"
-        await MainActor.run {
+        await MainActor.run (body:{
             self.dataArray.append(something1)
             
             let something2 = "Something2: \(Thread.current)"
             self.dataArray.append(something2)
-        }
+        })
     }
     
 }
