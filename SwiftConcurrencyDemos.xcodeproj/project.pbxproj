@@ -18,6 +18,7 @@
 		40F8C93F2A38AD3900DC63D1 /* AsyncLetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C93E2A38AD3900DC63D1 /* AsyncLetDemo.swift */; };
 		40F8C9412A39821400DC63D1 /* TaskGroupDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C9402A39821400DC63D1 /* TaskGroupDemo.swift */; };
 		40F8C9432A39949800DC63D1 /* StructClassActorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C9422A39949800DC63D1 /* StructClassActorDemo.swift */; };
+		40F8C9452A39F49500DC63D1 /* ActorsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C9442A39F49500DC63D1 /* ActorsDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		40F8C93E2A38AD3900DC63D1 /* AsyncLetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetDemo.swift; sourceTree = "<group>"; };
 		40F8C9402A39821400DC63D1 /* TaskGroupDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupDemo.swift; sourceTree = "<group>"; };
 		40F8C9422A39949800DC63D1 /* StructClassActorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActorDemo.swift; sourceTree = "<group>"; };
+		40F8C9442A39F49500DC63D1 /* ActorsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				40F8C93E2A38AD3900DC63D1 /* AsyncLetDemo.swift */,
 				40F8C9402A39821400DC63D1 /* TaskGroupDemo.swift */,
 				40F8C9422A39949800DC63D1 /* StructClassActorDemo.swift */,
+				40F8C9442A39F49500DC63D1 /* ActorsDemo.swift */,
 			);
 			path = SwiftConcurrencyDemos;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				40F8C93D2A38944F00DC63D1 /* TaskDemo.swift in Sources */,
 				40586BCA2A380FEF00A63CFC /* DownloadImageAsyncDemo.swift in Sources */,
 				40F8C9412A39821400DC63D1 /* TaskGroupDemo.swift in Sources */,
+				40F8C9452A39F49500DC63D1 /* ActorsDemo.swift in Sources */,
 				40586BC82A3750E500A63CFC /* DoCatchTryThrowsDemo.swift in Sources */,
 				40F8C93F2A38AD3900DC63D1 /* AsyncLetDemo.swift in Sources */,
 				40F8C93B2A3846BD00DC63D1 /* AsyncAwaitDemo.swift in Sources */,
