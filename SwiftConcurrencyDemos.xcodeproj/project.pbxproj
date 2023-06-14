@@ -17,6 +17,7 @@
 		40F8C93D2A38944F00DC63D1 /* TaskDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C93C2A38944F00DC63D1 /* TaskDemo.swift */; };
 		40F8C93F2A38AD3900DC63D1 /* AsyncLetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C93E2A38AD3900DC63D1 /* AsyncLetDemo.swift */; };
 		40F8C9412A39821400DC63D1 /* TaskGroupDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C9402A39821400DC63D1 /* TaskGroupDemo.swift */; };
+		40F8C9432A39949800DC63D1 /* StructClassActorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C9422A39949800DC63D1 /* StructClassActorDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		40F8C93C2A38944F00DC63D1 /* TaskDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDemo.swift; sourceTree = "<group>"; };
 		40F8C93E2A38AD3900DC63D1 /* AsyncLetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetDemo.swift; sourceTree = "<group>"; };
 		40F8C9402A39821400DC63D1 /* TaskGroupDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupDemo.swift; sourceTree = "<group>"; };
+		40F8C9422A39949800DC63D1 /* StructClassActorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActorDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				40F8C93A2A3846BD00DC63D1 /* AsyncAwaitDemo.swift */,
 				40F8C93E2A38AD3900DC63D1 /* AsyncLetDemo.swift */,
 				40F8C9402A39821400DC63D1 /* TaskGroupDemo.swift */,
+				40F8C9422A39949800DC63D1 /* StructClassActorDemo.swift */,
 			);
 			path = SwiftConcurrencyDemos;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				40F8C93F2A38AD3900DC63D1 /* AsyncLetDemo.swift in Sources */,
 				40F8C93B2A3846BD00DC63D1 /* AsyncAwaitDemo.swift in Sources */,
 				40586BBA2A374F6E00A63CFC /* SwiftConcurrencyDemosApp.swift in Sources */,
+				40F8C9432A39949800DC63D1 /* StructClassActorDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
