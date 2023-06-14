@@ -39,6 +39,10 @@ actor MyActorDataManager{
         return data.randomElement()
     }
     
+    nonisolated func getSavedData() ->String{//can access this part without waitings
+        return "NEW DATA"
+    }
+    
 }
 
 struct HomeView: View{
