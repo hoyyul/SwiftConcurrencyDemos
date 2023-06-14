@@ -47,7 +47,7 @@ struct AsyncLetDemo: View {
                     async let fetchImage3 = fetchImage()
                     async let fetchImage4 = fetchImage()
                     
-                    let(image1, image2, image3, image4) = await (try fetchImage1, try fetchImage2, try fetchImage3, try fetchImage4)//wait all async finish then return; don't have to be same type.
+                    let(image1, image2, image3, image4) = await (try fetchImage1, try fetchImage2, try fetchImage3, try fetchImage4)//wait all async results then return; don't have to be same type.
                     
                     self.images.append(contentsOf: [image1, image2, image3, image4])
                     

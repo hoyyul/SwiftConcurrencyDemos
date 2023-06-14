@@ -45,7 +45,6 @@
 		40586BAD2A374F6E00A63CFC = {
 			isa = PBXGroup;
 			children = (
-				40F8C93E2A38AD3900DC63D1 /* AsyncLetDemo.swift */,
 				40586BB82A374F6E00A63CFC /* SwiftConcurrencyDemos */,
 				40586BB72A374F6E00A63CFC /* Products */,
 			);
@@ -70,6 +69,7 @@
 				40586BC92A380FEF00A63CFC /* DownloadImageAsyncDemo.swift */,
 				40F8C93C2A38944F00DC63D1 /* TaskDemo.swift */,
 				40F8C93A2A3846BD00DC63D1 /* AsyncAwaitDemo.swift */,
+				40F8C93E2A38AD3900DC63D1 /* AsyncLetDemo.swift */,
 			);
 			path = SwiftConcurrencyDemos;
 			sourceTree = "<group>";
